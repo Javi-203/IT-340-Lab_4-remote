@@ -4,6 +4,6 @@
 filePath="/home/ubavi/Lab_4/system_log.txt
 
 # Resolved header
-echo "OFFICIAL SYSTEM REPORT - $(date)" >> "$filePath"
+echo "OFICIAL SYSTEM REPORT - $(date)" >> "$filePath"
 free -h | grep Mem >> "$filePath"
 echo "-------------------------------" >> "$filePath"
