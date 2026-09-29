@@ -3,6 +3,6 @@
 
 filePath="/home/ubavi/Lab_4/system_log.txt"
 
-echo "Memory Log - $(date)" >> "$filePath"
+echo "DAILY MEMORY CHECK - $(date)" >> "$filePath"
 free -h | grep Mem >> "$filePath"
 echo "-------------------------------" >> "$filePath"
