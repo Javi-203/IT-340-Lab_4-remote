@@ -1,6 +1,8 @@
 #!/bin/bash
 # Log the date and memory usage
 
-echo "Memory Log - $(date)" >> system_log.txt
-free -h | grep Mem >> system_log.txt
-echo "--------------------------------" >> system_log.txt
+filePath="/home/ubavi/Lab_4/system_log.txt"
+
+echo "Memory Log - $(date)" >> "$filePath"
+free -h | grep Mem >> "$filePath"
+echo "-------------------------------" >> "$filePath"
